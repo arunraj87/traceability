@@ -1,0 +1,160 @@
+/*
+@import "base/variables";
+
+@mixin timeline-default {
+    position: relative;
+    max-width: 100%;
+    margin: $gap*2 auto;
+
+    .timeline__events {
+        padding: 0;
+        width: 80%;
+        max-width: 700px;
+        min-height: 600px;
+        &:after{
+            left: 50%;
+            top: 0;
+            display: block;
+            content: 'hello world';
+            width: 4px;
+            height: calc(0% - 0px);
+            background-color: $primary-color;
+        }
+    }
+}
+.color{
+    color: white;
+}
+
+*/
+/*.timeline-default{
+  margin: 7% 5%;
+}
+
+.timeline-status{
+  text-align: center;
+  width: 16%;
+  border: .5px solid;
+  border-radius: 15px;
+  float: left;
+  margin-right: 4%;
+  cursor: pointer;
+}
+
+.link{
+  width: 25%;
+  background: green;
+  height: 2px;
+  margin-right: -50px;
+  margin-top: -25px;
+  transition: width 5s ease-in-out;
+  transition-duration: 1s;
+  float:right;
+  transition-delay: 1s;
+
+}
+
+.timeline-status:last-child > .link{
+  height: 0px;
+}*/
+/* line 62, ../../Demo/src/timeline.scss */
+.container {
+  position: relative;
+  padding-top: 5%;
+}
+
+/* line 66, ../../Demo/src/timeline.scss */
+.container .content {
+  position: relative;
+  top: 10px;
+  padding: 59px 23px 0 101px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 74, ../../Demo/src/timeline.scss */
+.container .content .link:last-child .connector-container {
+  display: none;
+}
+
+/* line 80, ../../Demo/src/timeline.scss */
+.container .link {
+  display: inline-block;
+  width: 15%;
+}
+
+/* line 85, ../../Demo/src/timeline.scss */
+.container .indicator {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  background: #e0e0e0;
+}
+
+/* line 93, ../../Demo/src/timeline.scss */
+.container .indicator-completed {
+  cursor: pointer;
+  background: #388e3c;
+}
+
+/* line 98, ../../Demo/src/timeline.scss */
+.container .indicator-completed {
+  transition: background-color .1s ease-in;
+}
+
+/* line 102, ../../Demo/src/timeline.scss */
+.container .indicator-completed:hover {
+  transform: scale(1.3);
+  transition-delay: 0s !important;
+}
+
+/* line 106, ../../Demo/src/timeline.scss */
+.container .indicator-completed:hover {
+  transition: transform .1s ease-in;
+}
+
+/* line 110, ../../Demo/src/timeline.scss */
+.container .status {
+  color: #388e3c;
+  font-size: 12px;
+  text-align: center;
+  margin-left: -85%;
+  font-weight: bold;
+}
+
+/* line 118, ../../Demo/src/timeline.scss */
+.container .status-transition {
+  -webkit-transition: color .25s ease-in;
+}
+
+/* line 122, ../../Demo/src/timeline.scss */
+.container .connector-container {
+  width: calc(100% - 18px);
+  margin-left: 19px;
+  margin-top: -11.5px;
+  height: 3px;
+  background: #e0e0e0;
+}
+
+/* line 129, ../../Demo/src/timeline.scss */
+.container .bottom-content {
+  padding-top: 10%;
+}
+
+/* line 132, ../../Demo/src/timeline.scss */
+.container .top-content {
+  padding-bottom: 7%;
+}
+
+/* line 137, ../../Demo/src/timeline.scss */
+.connector-completed {
+  background: #388e3c;
+  height: 3px;
+  transform: scaleX(1);
+  transition: transform .31s ease-in;
+  -webkit-transition: transform .31s ease-in;
+}
+
+/*# sourceMappingURL=timeline.css.map */

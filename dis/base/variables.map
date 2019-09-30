@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../../src/base/variables.scss"
+	],
+	"sourcesContent": [
+		"/**\r\n * Main Colors\r\n */\r\n$primary-color: cornflowerblue;\r\n\r\n$gap:25px;"
+	],
+	"names": [],
+	"mappings": "AAAA;;GAEG"
+}
